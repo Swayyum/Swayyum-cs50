@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Google Search</title>
-    <link rel="stylesheet" href="search.css">
-  </head>
-  <body>
-    <div class="header">
-      <a href="image.html">Image Search</a>
-      <a href="advanced.html">Advanced Search</a>
+<head>
+  <title>Google Search</title>
+  <link rel="stylesheet" type="text/css" href="search.css">
+</head>
+<body>
+  <div id="search-container">
+    <form action="https://www.google.com/search" method="GET">
+      <input type="text" id="search-bar" name="q" placeholder="Google Search" autofocus>
+      <div id="buttons">
+        <input type="submit" value="Google Search" id="search-button">
+        <a href="images.html">Image Search</a>
+        <a href="advanced.html">Advanced Search</a>
+      </div>
+    </form>
+    <div id="lucky-button-container">
+      <a href="https://www.google.com/doodles" id="lucky-button">I'm Feeling Lucky</a>
     </div>
-    <div class="search-container">
-      <form action="https://www.google.com/search">
-        <input type="text" name="q" placeholder="Search...">
-        <div class="buttons">
-          <button type="submit">Google Search</button>
-          <button type="submit" name="btnI">I'm Feeling Lucky</button>
-        </div>
-      </form>
-    </div>
-  </body>
+  </div>
+</body>
 </html>

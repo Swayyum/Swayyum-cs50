@@ -1,0 +1,41 @@
+.header {
+    text-align: right;
+    margin: 10px;
+  }
+  
+  .search-container {
+    margin-top: 400px;
+    text-align: center;
+    background-color: black
+    ;
+  }
+  
+  .search-container input[type=text] {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 50%;
+    margin-right: 10px;
+    font-size: 16px;
+    opacity: 10
+  }
+  
+  .buttons button {
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .buttons button[name=btnI] {
+    background-color: #ea4335;
+  }
+  
+  .buttons button:hover {
+    opacity: 0.8;
+  }
+  
